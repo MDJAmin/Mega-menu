@@ -5,3 +5,21 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+nav{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    
+    background: #242526;
+  }
+  nav .wrapper{
+    position: relative;
+    max-width: 1300px;
+    padding: 0px 30px;
+    height: 70px;
+    line-height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
