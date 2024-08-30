@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css" />
     <title>Responsive Mega Menu</title>
   </head>
@@ -10,8 +11,7 @@
     <nav>
       <div class="wrapper">
         <div class="logo"><a href="#">Welcome!</a></div>
-        <input type="radio" name="slider" id="menu-btn" />
-        <input type="radio" name="slider" id="close-btn" />
+        <i class='bx bx-menu'></i>
         <ul class="nav-links">
           <label for="close-btn" class="btn close-btn"
             ><i class="fas fa-times"></i
@@ -20,7 +20,6 @@
           <li><a href="#">About</a></li>
           <li>
             <a href="#" class="desktop-item">Dropdown Menu</a>
-            <input type="checkbox" id="showDrop" />
             <label for="showDrop" class="mobile-item">Dropdown Menu</label>
             <ul class="drop-menu">
               <li><a href="#">Drop menu 1</a></li>
@@ -31,7 +30,6 @@
           </li>
           <li>
             <a href="#" class="desktop-item">Mega Menu</a>
-            <input type="checkbox" id="showMega" />
             <label for="showMega" class="mobile-item">Mega Menu</label>
             <div class="mega-box">
               <div class="content">
