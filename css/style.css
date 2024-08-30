@@ -12,13 +12,13 @@ nav {
 
   background: #242526;
 }
-.bx-menu{
-display: none;
-color: white;
-font-size: 1.8em;
-position: absolute;
-right: 40px;
-cursor: pointer;
+.bx-menu {
+  display: none;
+  color: white;
+  font-size: 1.8em;
+  position: absolute;
+  right: 40px;
+  cursor: pointer;
 }
 .body-text {
   position: absolute;
@@ -160,7 +160,7 @@ nav .wrapper {
   .wrapper .btn {
     display: block;
   }
-  .bx-menu{
+  .bx-menu {
     display: block;
   }
   .wrapper .nav-links {
