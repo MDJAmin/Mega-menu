@@ -7,10 +7,9 @@
 }
 nav {
   position: fixed;
-  z-index: 99;
+  z-index: 100;
   width: 100%;
-
-  background: #242526;
+  background: #d88014;
 }
 .bx-menu {
   display: none;
@@ -76,7 +75,7 @@ nav .wrapper {
   background: #242526;
   width: 180px;
   line-height: 45px;
-  top: 85px;
+  top: 80px;
   opacity: 0;
   visibility: hidden;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
@@ -277,4 +276,45 @@ nav .wrapper {
   .content .row header {
     font-size: 19px;
   }
+}
+
+.menu-btn a {
+  text-decoration: none;
+  font-size: 1.7em;
+  color: white;
+}
+
+.sub-title span {
+  color: #d88014;
+}
+
+.title span {
+  color: #d88014;
+}
+
+.MDJAminDiv {
+  z-index: 4444;
+  position: fixed;
+  bottom: 5%;
+  left: 2%;
+}
+
+.MDJAmin {
+  text-decoration: none;
+  /* border-bottom: 1px dashed rgb(204, 204, 204); */
+  /* border-top: 1px dashed rgb(204, 204, 204); */
+  border-bottom: 1px dashed rgb(44, 44, 44);
+  border-top: 1px dashed rgb(44, 44, 44);
+  padding: 4px 0;
+  color: rgba(44, 44, 44, 0.525);
+  /* color: rgba(204, 204, 204, 0.414); */
+  font-family: monospace;
+  font-style: italic;
+  font-size: 1.1em;
+  transition: all 0.5s;
+}
+
+.MDJAmin:hover {
+  color: #d88014;
+  /* color: white; */
 }
